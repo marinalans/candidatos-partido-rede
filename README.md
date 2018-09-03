@@ -1,27 +1,14 @@
-# Mapa do Brasil SVG
-Adaptação do Mapa do Brasil em SVG do [Felipe Duardo](https://github.com/felipeduardo/mapa-brasil-svg) com nome e código do IBGE.
+ESTE MAPA FOI FEITO PARA FACILITAR A CONSULTA DOS CANDIDATOS DO PARTIDO REDE
 
-### DEMO
+Acesse aqui: [https://marinalans.github.io/candidatos-partido-rede/](https://marinalans.github.io/candidatos-partido-rede/)
 
-[https://jsfiddle.net/LucasBassetti/qrd0nvx2/2/](https://jsfiddle.net/LucasBassetti/qrd0nvx2/2/)
 
-### Exemplo de Iteração
 
-``` javascript
-(function() {
-  
-  var states = document.getElementsByClassName("estado")
-  
-  for(var i = 0; i < states.length; i++) {
-    states[i].onclick = function() {
-    	alert(this.getAttribute('name') + ' ' + this.getAttribute('code'));
-    }
-  }
-  
-})();
-```
+
 
 ### Créditos
 
+* Mapa para o Partido: [https://github.com/marinalans] (Marina Lans)
+* Mapa do Brasil SVG: [https://jsfiddle.net/LucasBassetti/qrd0nvx2/2/](https://jsfiddle.net/LucasBassetti/qrd0nvx2/2/)
 * Mapa Original: [https://github.com/felipeduardo/mapa-brasil-svg](https://github.com/felipeduardo/mapa-brasil-svg)
 * Códigos IBGE: [http://www.ibge.gov.br/home/geociencias/areaterritorial/principal.shtm](http://www.ibge.gov.br/home/geociencias/areaterritorial/principal.shtm)
